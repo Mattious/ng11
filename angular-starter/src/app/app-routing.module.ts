@@ -29,6 +29,26 @@ const routes: Routes = [
     loadChildren: () => import('./modules/application/example-bootstrap-prototype/example-bootstrap-prototype.module')
       .then(mod => mod.ExampleBootstrapPrototypeModule)
   },
+  {
+    path: 'components',
+    loadChildren: () => import('./modules/application/components/components.module')
+      .then(mod => mod.ComponentsModule)
+  },
+  {
+    path: 'services',
+    loadChildren: () => import('./modules/application/services/services.module')
+      .then(mod => mod.ServicesModule)
+  },
+  {
+    path: 'template-driven-forms',
+    loadChildren: () => import('./modules/application/template-driven-forms/template-driven-forms.module')
+      .then(mod => mod.TemplateDrivenFormsModule)
+  },
+  {
+    path: 'chartjs',
+    loadChildren: () => import('./modules/application/chartjs/chartjs.module')
+      .then(mod => mod.ChartjsModule)
+  },
   { path: '**', component: NotFoundComponent }
 ];
 
