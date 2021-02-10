@@ -1,0 +1,82 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Mattious 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+ganatan
+/
+angular-example-bootstrap
+1
+4218
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+angular-example-bootstrap/.gitignore
+@ganatan
+ganatan Update Angular 11.0.2
+Latest commit a61f35e on 27 Nov 2020
+ History
+ 2 contributors
+@ganatan@ganatanbriel
+47 lines (40 sloc)  649 Bytes
+  
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+
+# dependencies
+/node_modules
+package-lock.json
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
